@@ -29,7 +29,7 @@
         </dependency>
 
 
-<!--         https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine-->
+        <!--         https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -37,13 +37,12 @@
             <scope>test</scope>
         </dependency>
 
-<!--         other dependencies-->
+        <!--         other dependencies-->
         <dependency>
             <groupId>com.javarush</groupId>
             <artifactId>desktop-game-engine</artifactId>
             <version>1.0</version>
         </dependency>
-
     </dependencies>
 
     <repositories>
@@ -150,5 +149,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
