@@ -51,6 +51,12 @@
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
+        <!-- Adding a local repository containing desktop-game-engine-1.0.jar -->
+        </repository>
+        <repository>
+            <id>localrep</id>
+            <name>local repository</name>
+            <url>file:${project.basedir}/lib</url>
         </repository>
     </repositories>
 
