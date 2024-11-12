@@ -12,7 +12,7 @@
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
-
+<!---->
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
@@ -50,8 +50,8 @@
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
-        <!-- Adding a local repository containing desktop-game-engine-1.0.jar -->
         </repository>
+        <!-- Adding a local repository containing desktop-game-engine-1.0.jar -->
         <repository>
             <id>localrep</id>
             <name>local repository</name>
