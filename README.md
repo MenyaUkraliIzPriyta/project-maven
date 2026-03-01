@@ -1,2 +1,34 @@
-In this project, the structure of the pom.xml file was changed to correctly launch the program.
-In order to solve the problem of automatic loading of a third-party library, I added a new resource field, where I wrote the path exactly displaying the location of the library in the m2 file.
+# 🏁 Racer Game - Java Desktop Racing
+
+Проект представляет собой аркадную гоночную игру, реализованную на Java с использованием библиотеки `desktop-game-engine`. Игрок управляет автомобилем на многополосной дороге, объезжая препятствия и набирая очки.
+
+## 📋 Описание
+
+Это форк проекта [demologin/project-maven](https://github.com/demologin/project-maven), доработанный для корректной работы с зависимостями. Основные изменения касаются настройки `pom.xml` для правильной загрузки сторонней библиотеки игрового движка.
+
+Игра написана в учебных целях и демонстрирует:
+- Работу с графическими примитивами
+- Обработку пользовательского ввода
+- Динамическое обновление игрового состояния
+- Использование кастомного загрузчика ресурсов
+
+
+## ⚙️ Технологии
+
+- **Java 8+**
+- **Maven** - сборка проекта
+- **desktop-game-engine** - игровой движок (версия 1.0)
+- Кастомный загрузчик ресурсов для работы с JAR-файлами
+
+## 🚀 Сборка и запуск
+
+### Требования
+- JDK 8 или выше
+- Apache Maven 3.6+
+
+### Инструкция
+
+1. **Клонировать репозиторий**
+   ```bash
+   git clone https://github.com/your-username/project-maven.git
+   cd project-maven
